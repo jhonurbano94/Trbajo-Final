@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.contenedorInformacion{
+    padding: 20px;
+    object-fit: cover;
+}
+.logo{
+    margin: auto;
+    width: 40%;
+    padding: 20px;
+    object-fit: cover;
+}
+
+.pie-pagina{
+    margin: auto;
+    width: 100%;
+    background-color: rgb(203, 204, 205);
+    text-align: center;
+}
+@media screen and (min-width:330px)and (max-width:660px){
+    
+}
+
+.grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 45px 0px;
+}
+
+.logo-1{
+    margin: auto;
+    width: 50%;
+}
+
+.pie-1{
+    margin: auto;
+    width: 20%;
+} 
+.pie-2{
+    margin: auto;
+    width: 20%;
+}
+.pie-3{
+    margin: auto;
+    width: 20%;
+}
+.pie-4{
+    margin: auto;
+    width: 30%;
+}
+

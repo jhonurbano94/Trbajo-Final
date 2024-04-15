@@ -4,11 +4,16 @@
     box-sizing: border-box;
     overflow-x: hidden;
 }
-
+.contenedorInformacion{
+    padding: 20px;
+    object-fit: cover;
+}
 
 .logo{
     margin: auto;
     width: 30%;
+    padding: 20px;
+    object-fit: cover;
 }
 .pie-pagina{
     margin: auto;
