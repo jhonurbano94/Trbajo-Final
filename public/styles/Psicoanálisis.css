@@ -12,6 +12,13 @@
     object-fit: cover;
     
 }
+.MiMenudenavegacion{background-color: rgb(200, 203, 204);
+    margin: auto;
+    width: 100%;
+    padding: 20px;
+    object-fit: cover;
+}
+
 .contenedorInformacion{
     padding: 20px;
     object-fit: cover;

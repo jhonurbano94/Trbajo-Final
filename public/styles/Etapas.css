@@ -8,13 +8,20 @@
     padding: 20px;
     object-fit: cover;
 }
-
-.logo{
+.MiMenudenavegacion{background-color: rgb(200, 203, 204);
     margin: auto;
-    width: 30%;
+    width: 100%;
     padding: 20px;
     object-fit: cover;
 }
+
+.logo{
+    margin: auto;
+    width: 40%;
+    padding: 20px;
+    object-fit: cover;
+}
+
 .pie-pagina{
     margin: auto;
     width: 100%;
@@ -24,6 +31,7 @@
 @media screen and (min-width:330px)and (max-width:660px){
     
 }
+
 .grupo-1{
     width: 100%;
     max-width: 1200px;
@@ -55,3 +63,4 @@
     margin: auto;
     width: 30%;
 }
+

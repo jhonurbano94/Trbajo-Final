@@ -4,13 +4,20 @@
     box-sizing: border-box;
     overflow-x: hidden;
 }
-.contenedorInformacion{
+.MiMenudenavegacion{background-color: rgb(200, 203, 204);
+    margin: auto;
+    width: 100%;
     padding: 20px;
     object-fit: cover;
 }
+
 .logo{
     margin: auto;
-    width: 40%;
+    width: 50%;
+    padding: 20px;
+    object-fit: cover;
+}
+.contenedorInformacion{
     padding: 20px;
     object-fit: cover;
 }
