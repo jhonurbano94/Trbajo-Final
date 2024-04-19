@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+.formulario{
+    width: 400px;
+    background-color: rgb(223, 253, 251);
+    padding: 40px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: calibri;
+    color:black;
+    box-shadow: 7px 13px 37px rgb(235, 214, 245);
+    max-width: 400px;
+    width: 100%;
+}
+.formulario h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.nombre{
+    width: 100%;
+    background-color:  rgb(246, 238, 250);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1 px solid blue;
+    font-family: calibri;
+    font-size: 18px;
+}
+.contaseña{
+    width: 100%;
+    background-color:  rgb(246, 238, 250);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1 px solid blue;
+    font-family: calibri;
+    font-size: 18px;
+}
+.iniciar{
+    width: 100%;
+    background: rgb(214, 214, 248);
+    border: none;
+    padding: 12px;
+    color: black;
+    margin: 16px 0;
+    font-size: 16px;
+
+}
