@@ -7,14 +7,14 @@ import dotenv from "dotenv"
  const app = express ();
  const puerto = 9000;
 
- // 3. 
-
-
-
-
-
-
-
+ // 3. establecer la conexion con nuetro foms
+ const rutaPublica = path.join(process.cwd(),"public");
+ app.use(express.static(rutaPublica));
+ app.use(express.json());
+ //especificamos que vamos abseder en index2.html 
+app.get("/",(req,res)=>{
+    res.sendFile(path.join(rutaPublica,"index2.html"))
+});
 
 
 //4. inicializamos el servidor 
