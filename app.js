@@ -2,10 +2,18 @@
 
 import express from "express"
 import path from "path"
-import dotenv from "dotenv"
+import dotenv, { config } from "dotenv"
+import conexionMongo from "./src/config/baseDatos.js";
 //2. configurar
  const app = express ();
  const puerto = 9000;
+//2.1 configurar la variable entorno 
+dotenv.config();
+
+
+// 2.2configurar conecion base de datos 
+
+conexionMongo();
 
  // 3. establecer la conexion con nuetro foms
  const rutaPublica = path.join(process.cwd(),"public");

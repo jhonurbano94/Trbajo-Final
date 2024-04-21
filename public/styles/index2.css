@@ -58,11 +58,12 @@
     width: 100%;
     background-color: rgb(203, 204, 205);
     text-align: center;
+    
 }
 @media screen and (min-width:330px)and (max-width:660px){
     
 }
-.grupo-1{
+.grupo-1{ 
     width: 100%;
     max-width: 1200px;
     margin: auto;
