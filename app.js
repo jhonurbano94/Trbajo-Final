@@ -4,6 +4,8 @@ import express from "express"
 import path from "path"
 import dotenv, { config } from "dotenv"
 import conexionMongo from "./src/config/baseDatos.js";
+import usuarioRouter from "./src/routes/usuario.route.js";
+
 //2. configurar
  const app = express ();
  const puerto = 9000;
@@ -19,6 +21,8 @@ conexionMongo();
  const rutaPublica = path.join(process.cwd(),"public");
  app.use(express.static(rutaPublica));
  app.use(express.json());
+app.use("/api",usuarioRouter);
+
  //especificamos que vamos abseder en index2.html 
 app.get("/",(req,res)=>{
     res.sendFile(path.join(rutaPublica,"index2.html"))
