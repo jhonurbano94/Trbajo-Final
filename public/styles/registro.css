@@ -4,7 +4,12 @@
     box-sizing: border-box;
     overflow-x: hidden;
 }
-
+.MiMenudenavegacion{background-color: rgb(200, 203, 204);
+    margin: auto;
+    width: 100%;
+    padding: 20px;
+    object-fit: cover;
+}
 
 .form-register{
     width: 400px;

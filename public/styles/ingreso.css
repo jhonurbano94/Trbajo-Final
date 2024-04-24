@@ -5,7 +5,12 @@
     overflow-x: hidden;
 }
 
-
+.MiMenudenavegacion{background-color: rgb(200, 203, 204);
+    margin: auto;
+    width: 100%;
+    padding: 20px;
+    object-fit: cover;
+}
 .formulario{
     width: 400px;
     background-color: rgb(223, 253, 251);

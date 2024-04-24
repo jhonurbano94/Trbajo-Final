@@ -22,6 +22,7 @@
 .contenedorInformacion{
     padding: 20px;
     object-fit: cover;
+    margin: auto;
 }
 
 
@@ -35,7 +36,7 @@
 
 .audiovisual{
     margin: auto;
-    width: 50%;
+    width: 40%;
 }
 .video{
     margin: auto;
@@ -69,7 +70,8 @@
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
+    margin: auto;
+    width: 100%;
     padding: 45px 0px;
 }
 
@@ -93,4 +95,22 @@
 .pie-4{
     margin: auto;
     width: 30%;
+}
+.parafo1{
+    margin: auto;
+    width: 100%;
+}
+.titulo1{
+    margin: auto;
+    width: 100%;
+text-align: center;
+}
+.titulo2{
+    margin: auto;
+    width: 100%;
+   text-align: center;
+}
+.video1{
+    margin: auto;
+    width: 40%;
 }
