@@ -9,4 +9,4 @@ POST http://localhost:9000/api/crearUsuario
 PUT http://localhost:9000/api/modificarUsuario/:_id
 ### eliminar usuario 
 
-DELETE http://localhost:9000/api/elimnarUsuario/:_id
+DELETE http://localhost:9000/api/eliminarUsuario/:_id

@@ -16,7 +16,7 @@ usuarioRouter.post("/crearUsuario",postUsuario);
 // ruta para modificar usuario por su ID indentifador unico
 usuarioRouter.put("/modificarUsuario/:_id",putUsuario);
 // ruta para eliminar usuarios por su id
-usuarioRouter.delete("/elimnarUsuario/:_id",deleteUsuario);
+usuarioRouter.delete("/eliminarUsuario/:_id",deleteUsuario);
 
 // esportamos las rutas 
 export default usuarioRouter;
