@@ -28,7 +28,7 @@
     font-size: 30px;
     margin-bottom: 20px;
 }
-.nombre{
+.correo{
     width: 100%;
     background-color:  rgb(246, 238, 250);
     padding: 10px;
@@ -38,7 +38,7 @@
     font-family: calibri;
     font-size: 18px;
 }
-.contaseña{
+.contrasena{
     width: 100%;
     background-color:  rgb(246, 238, 250);
     padding: 10px;
