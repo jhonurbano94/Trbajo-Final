@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Link de los estilos -->
-    <link rel="stylesheet" href="ingreso.css">
+  
 
     <!-- link de estilos -->
     <link rel="stylesheet" href="./styles/ingreso.css">
@@ -15,7 +14,7 @@
 
 
     <title>Ingreso</title>
-    <script src="./styles/ingreso.js"></script>
+    <script src="./scripts/ingreso.js" defer type="text/javascript"></script>
 </head>
 <body class="ingreso">
     <!--  página de navegacion -->
@@ -62,7 +61,7 @@
             </div>
             <div class="Recordar">¿olvido su contraseña?</div>
             
-            <button type="submit" class="btn btn-primary nb-3" onclick="iniciarSesion()">Iniciar</button>
+            <button type="submit" class="btn btn-primary nb-3" onclick="iniciarSesion(event)">Iniciar</button>
             <div class="Regístrate">
                 Regístrate aquí <a href="./registro.html">Registro</a>
             </div>

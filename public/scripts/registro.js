@@ -6,16 +6,16 @@ console. log("holaaaa soy registro");
 
 const registarUsuario = async () => {
     //2.1 obtener los datos de mi formulario
-    const nombres = document.getElementById("nombres").value;
-    const apellidos = document.getElementById("apellidos").value;
+    const nombre = document.getElementById("nombres").value;
+    const apellido = document.getElementById("apellidos").value;
     const correo = document.getElementById("correo").value;
     const contrasena = document.getElementById("contrasena").value;
-console.log(nombres, apellidos, correo, contrasena);
+console.log(nombre, apellido, correo, contrasena);
 
 // crear un objeto con los datos del ususario
 const datosUsuario = {
-    nombres,
-    apellidos,
+    nombre,
+    apellido,
     correo,
     contrasena
 }
